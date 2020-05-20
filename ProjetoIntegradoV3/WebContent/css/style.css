@@ -1,0 +1,71 @@
+/* Aqui fiz um estilo alternativo pro nav e algumas outras coisas pq o bootstrap não agradou */
+* { margin:0; padding: 0; }
+body{ background-color: #474747;}
+footer { background-color: #222; min-height: 60px; color:#999; padding:5px; }
+header { background-color: 	#00091a;}
+nav {font-size: 25px; min-height: 90px; margin-bottom: 0 !important;  }
+
+#main { padding: 50px; background: linear-gradient( #00091a 0%, #474747 100%);  }
+#main img  { max-height: 400px; }
+#middle { margin: 50px 0; }
+#logo { margin:20px 0; }
+#navegar { margin: 50px 0;}
+#sobre {margin: 90px 0;  }
+#slogan {color: white;}
+
+.btnnavegue{border:none;background-color:#00091a; color:#b9b9b9;}
+.btnnavegue:hover{color:#fff}
+.usuarioNavegue{margin-bottom:10px;}
+
+#loginbtn{font-size: 25px; border-radius: 23px; background-color: #fcff00;}
+#loginbtn:hover{ background-color: #c9cc00;}
+#signupbtn{font-size: 25px; border-radius: 23px; margin-left: 5px; background-color: #212529; color: white;}
+#signupbtn:hover{ background-color: #474747;}
+
+#projetoUsuario{font-size:18px;}
+#projetoTitulo{font-size:42px;}
+.projetoImg{width:120px; height:120px;}
+
+.lista_footer { margin-top:35px; }
+.link_menu { margin-top:20px; }
+.link_menu a{margin-right: 5px; border-radius: 22px; color:rgb(185, 185, 185) !important; padding:10px;  }
+.link_menu a:hover{margin-right: 5px; border-radius: 22px; color:white !important; }
+.center { text-align: center }
+.display-1{color: white; font-size: 70px; }
+.card{background-color: #222; color: aliceblue; box-shadow: 0 4px 8px 0 black; transition: 0.3s;}
+.card:hover{ box-shadow: 0 8px 16px 0 black;}
+.card-img-top{border: #222; border-style: dashed}
+
+#login-container{margin-top:5%; margin-bottom:5%}
+#login-form{ padding:5%; box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19); background-color:#212529;}
+#signup-form{ padding:5%; box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19); background: #fcff00;}
+.nav-tabs{
+    margin-top: 3%;
+    border: none;
+    background: #212529;
+    border-radius: 20px;
+    width: 125px;
+    float: right;
+}
+.nav-tabs .nav-link{
+    padding: 2%;
+    height: 34px;
+    font-weight: 600;
+    color: #808080;
+    border-radius: 20px;
+    background-color:#474747;
+
+}
+.nav-tabs .nav-link:hover{
+    border: none;
+}
+.nav-tabs .nav-link.active{
+    width: 125px;
+    color: white;
+    border: 2px solid #212529;
+    border-radius: 20px;
+    background-color:#212529;
+}
+
+.projeto-container{padding:5%; box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19); background-color:#212529;}
+

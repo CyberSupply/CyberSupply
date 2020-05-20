@@ -1,0 +1,6 @@
+#label{font-size: 20px; margin-top:12px; margin-bottom:5px}
+
+
+.link_login { margin-top:20px; }
+.link_login a{margin-right: 5px; border-radius: 22px; color:black !important; padding:10px;  }
+.link_login a:hover{margin-right: 5px; border-radius: 22px; color:white !important; }
